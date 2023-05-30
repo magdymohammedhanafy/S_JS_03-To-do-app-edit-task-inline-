@@ -41,21 +41,20 @@ function addOnclick()
 
 let task=document.getElementById("taskName").value;
 let per=document.getElementById("Periority").value;
-console.log(typeof(per));
-if(per>3)
-{
-    per=3;   
-}
-else if(per<=0)
+let check=parseInt(per);
+if(check<0)
 {
     per=1;
 }
-
-else if(per!=typeof(Number))
+if(check>3)
 {
-    alert("not valid periority");
-    return;
+    per=3;
 }
+
+console.log(typeof(1));
+console.log(typeof(check));
+
+
 
 if(task && per)
 {
