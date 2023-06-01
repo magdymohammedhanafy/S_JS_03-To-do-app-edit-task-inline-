@@ -15,8 +15,6 @@ body{
     color: grey;  
 }
 
-
-
 .inputField .taskInput input,
 .inputField .periorityInput input
 {
@@ -24,6 +22,12 @@ body{
     width: 200px;
    border-radius:10px ;
    border: 1px solid red;
+}
+
+.inputField .Sub 
+{
+  display: flex;
+ 
 }
 
 .inputField .Sub button
@@ -84,9 +88,23 @@ body{
 
 }
 
+.edit
+{
+
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:10px ;
+    background-color: green;
+    margin-left: 10px;
+
+}
+
 .outputField table thead td{
     background-color: grey;
     color: rgb(46, 4, 4);
 }
+
 
 
