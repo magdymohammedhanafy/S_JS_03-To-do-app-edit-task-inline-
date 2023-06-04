@@ -76,30 +76,35 @@ body{
 }
 
 
-.remove
+
+
+.edit,
+.save,
+.save,
+.remove,
+.cancel
 {
 
     height: 50px;
-    width: 100px;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius:10px ;
-    background-color: red;
-
-}
-
-.edit
-{
-
-    height: 50px;
-    width: 100px;
-    font-size: 20px;
+    width: 55px;
+    font-size: 15px;
     font-weight: bold;
     border-radius:10px ;
     background-color: green;
     margin-left: 10px;
 
 }
+
+.remove
+{
+
+  
+    background-color: red;
+
+}
+
+
+
 
 .outputField table thead td{
     background-color: grey;
