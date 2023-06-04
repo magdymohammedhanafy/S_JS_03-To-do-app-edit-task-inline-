@@ -98,15 +98,7 @@ let cancelEdit=function(index)
     display();
 }
 
-let fSort=function(){
-let sorting=sortBtn.addEventListener("click",function(){
-    taskData.sort(function (a, b) {
-        return a.periority - b.periority;
-    });
-   
-    display();    
-})
-}
+
 
 
 
